@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "parcel ./src/index.html -p 5050 --open",
-    "build": "parcel build ./src/index.html --no-source-maps"
+    "build": "parcel build ./src/index.html --no-source-maps --public-url ./"
   },
   "keywords": [
     "js",
@@ -13,6 +13,7 @@
   ],
   "author": "Olya Mosienko",
   "license": "ISC",
+  "homepage": "https://olyamosienko.github.io/constructor-js/",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   }
